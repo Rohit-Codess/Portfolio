@@ -16,7 +16,7 @@ const socials = [
   {
     id: 3,
     name: 'Email',
-    url: 'mailto:rohit@example.com',
+    url: 'mailto:its.rohit.dev@gmail.com',
     icon: 'FaMailBulk',
   },
 ];

@@ -5,7 +5,7 @@ import { motion as Motion} from 'framer-motion';
 
 const ProjectsView = () => {
   return (
-    <section id="projects" className="min-h-screen bg-white px-6 py-16">
+    <section id="projects" className="min-h-screen px-6 py-16 bg-gray-50">
       <div className="max-w-6xl mx-auto">
         <Motion.h2
           className="text-3xl font-bold mb-10 text-center"

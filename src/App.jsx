@@ -3,7 +3,6 @@ import { Toaster } from 'react-hot-toast';
 import Navbar from './components/Navbar';
 import HomeView from './views/HomeView';
 import ProjectsView from './views/ProjectsView';
-import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
         <ProjectsView />
         <ContactView />
       </main>
-      <Footer />
       <ScrollToTop />
     </>
   )

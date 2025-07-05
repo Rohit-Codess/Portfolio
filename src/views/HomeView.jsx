@@ -3,7 +3,7 @@ import { motion as Motion} from 'framer-motion';
 
 const HomeView = () => {
   return (
-    <section id='home' className="min-h-screen flex flex-col justify-center items-center text-center bg-gradient-to-b from-gray-50 to-white p-6">
+    <section id='home' className="min-h-screen flex flex-col justify-center items-center text-center p-6 bg-gray-50">
       <Motion.h1
         className="text-4xl md:text-6xl font-bold mb-4"
         initial={{ opacity: 0, y: -40 }}
