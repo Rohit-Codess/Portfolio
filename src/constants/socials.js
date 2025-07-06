@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const socials = [
   {
@@ -10,16 +10,10 @@ const socials = [
   {
     id: 2,
     name: 'LinkedIn',
-    url: 'https://linkedin.com/in/rohit-codess',
+    url: 'https://linkedin.com/in/rohit-mahto1122',
     icon: 'FaLinkedin',
-  },
-  {
-    id: 3,
-    name: 'Email',
-    url: 'mailto:its.rohit.dev@gmail.com',
-    icon: 'FaMailBulk',
   },
 ];
 
-export { FaGithub, FaLinkedin, FaMailBulk };
+export { FaGithub, FaLinkedin };
 export default socials;
