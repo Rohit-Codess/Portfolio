@@ -11,8 +11,8 @@ const sections = [
 const socials = [
   { name: 'file', icon: FaFile, href: '/assets/Rohit_Resume.pdf' },
   { name: 'github', icon: FaGithub, href: 'https://github.com/Rohit-Codess/' },
-  { name: 'x', icon: SiX, href: 'https://www.linkedin.com/in/rohit-mahto1122/' },
-  { name: 'linkedin', icon: FaLinkedin, href: 'https://linkedin.com/in/rohit-codess' },
+  { name: 'x', icon: SiX, href: 'https://x.com/rohitmahto7479/' },
+  { name: 'linkedin', icon: FaLinkedin, href: 'https://linkedin.com/in/rohit-mahto1122' },
 ];
 
 const Navbar = () => {
