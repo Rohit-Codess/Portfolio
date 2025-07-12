@@ -38,7 +38,7 @@ const projects = {
   'restaurant-erp-system': {
     title: 'Restaurant ERP System',
     description: 'It is designed to restaurant operations, from inventory and order management to staff and reporting.',
-    url: 'https://restaurant-management-rohit-codess-projects.vercel.app/',
+    url: '#',
     iframeUrl: 'https://restaurant-management-rohit-codess-projects.vercel.app/',
     keyPoints: [
       'Streamlines restaurant operations',
