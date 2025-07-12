@@ -1,9 +1,9 @@
 import React from 'react';
-import { motion as Motion} from 'framer-motion';
+import { motion as Motion } from 'framer-motion';
 
 const HomeView = () => {
   return (
-    <section id='home' className="min-h-screen flex flex-col justify-center items-center text-center p-6 bg-gray-50">
+    <section id="home" className="min-h-screen flex flex-col justify-center items-center text-center p-6">
       <Motion.h1
         className="text-4xl md:text-6xl font-bold mb-4"
         initial={{ opacity: 0, y: -40 }}
@@ -19,7 +19,7 @@ const HomeView = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9, delay: 0.2 }}
       >
-        Software Engineer
+        Software Engineer | MERN Stack Specialist
       </Motion.h2>
 
       <Motion.p
@@ -28,27 +28,22 @@ const HomeView = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.4 }}
       >
-        I design and develop full-featured, production-ready web applications with advanced UI/UX using React, Tailwind CSS, and Vite, backend by secure authentication, databases, and RESTful APIs — delivering real-time features.
+        I design and develop full-featured, production-ready web applications with advanced UI/UX using React, Tailwind CSS, and Vite, backend by secure authentication, databases, and RESTful APIs — delivering real-time features.<br /><br />
+        Currently working at KK Dhaba & Restaurant, building a restaurant management platform. Previously interned at Emax India, and pursuing B.Sc. IT at Marwari College, Ranchi.<br /><br />
+        Projects: Travel: Beyond Borders, HR Management System, and more. Tech Stack: JavaScript, React.js, Node.js, Express.js, MongoDB, Tailwind CSS, Bootstrap.
       </Motion.p>
 
       <Motion.div
-        className="flex space-x-4"
+        className="flex space-x-4 mb-8"
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.6 }}
       >
         <a
-          href="#contact"
+          href="/contact"
           className="px-6 py-2 bg-black text-white rounded-lg hover:opacity-90 transition"
         >
           Contact Me
-        </a>
-        <a
-          href="/assets/Rohit_Resume.pdf"
-          download
-          className="px-6 py-2 border border-black rounded-lg hover:bg-black hover:text-white transition"
-        >
-          Download CV
         </a>
       </Motion.div>
     </section>

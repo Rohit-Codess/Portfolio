@@ -31,7 +31,7 @@ const ContactView = () => {
   }
 
   return (
-    <div id='contact' className="min-h-screen flex items-center justify-center p-6 bg-gray-50">
+    <div id='contact' className="min-h-screen flex items-center justify-center p-6">
       <form onSubmit={handleSubmit} className="w-full max-w-lg space-y-4 bg-white p-8 rounded-2xl shadow-lg">
         <h2 className="text-2xl font-bold mb-2">Get in Touch</h2>
         <Input name="name" placeholder="Your Name" value={form.name} onChange={handleChange} />

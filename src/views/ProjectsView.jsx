@@ -5,7 +5,7 @@ import { motion as Motion} from 'framer-motion';
 
 const ProjectsView = () => {
   return (
-    <section id="projects" className="min-h-screen px-6 py-16 bg-gray-50">
+    <section id="projects" className="min-h-screen px-6 py-16">
       <div className="max-w-6xl mx-auto">
         <Motion.h2
           className="text-3xl font-bold mb-10 text-center"
@@ -22,9 +22,9 @@ const ProjectsView = () => {
               key={project.id}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: project.id * 0.1 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
             >
-              <ProjectCard {...project} />
+              <ProjectCard {...project} id={project.id} />
             </Motion.div>
           ))}
         </div>

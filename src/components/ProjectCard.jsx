@@ -1,8 +1,9 @@
 import React from 'react';
 import { FaGithub } from 'react-icons/fa';
 import { FiGlobe } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
-const ProjectCard = ({ title, description, tags, demoLink, github }) => {
+const ProjectCard = ({ id, title, description, tags, github }) => {
   return (
     <div id='project' className="p-6 border rounded-xl shadow hover:shadow-lg transition ">
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
@@ -15,10 +16,10 @@ const ProjectCard = ({ title, description, tags, demoLink, github }) => {
         ))}
       </div>
       <div className="flex space-x-4">
-        <a href={demoLink} target="_blank" rel="noopener noreferrer" className="text-sm bg-black hover:bg-gray-800 text-white px-4 py-2 rounded transition flex items-center gap-2">
+        <Link to={`/projects/${id}`} className="text-sm bg-black hover:bg-blue-700 text-white px-4 py-2 rounded transition flex items-center gap-2">
           <FiGlobe className="inline-block text-sm" /> Website
-        </a>
-        <a href={github} target="_blank" rel="noopener noreferrer" className="text-sm bg-black text-white px-2 py-2 rounded transition flex items-center gap-2">
+        </Link>
+        <a href={github} target="_blank" rel="noopener noreferrer" className="text-sm bg-black hover:bg-blue-700 text-white px-2 py-2 rounded transition flex items-center gap-2">
           <FaGithub className="inline-block text-sm" /> GitHub
         </a>
       </div>
