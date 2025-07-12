@@ -56,27 +56,38 @@ A modern, responsive developer portfolio built with React, Vite, and Tailwind CS
 ## Project Structure
 
 ```
+Portfolio/
 ├── public/
 │   └── assets/
-│       └── resume.pdf
+│       ├── logo.jpg
+│       └── Rohit_Resume.pdf
 ├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── constants/
-│   ├── controllers/
-│   ├── hooks/
-│   ├── views/
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── .env
-├── package.json
-├── tailwind.config.js
-├── vite.config.js
+│   ├── components/          # Reusable UI components (Navbar, Footer, ProjectCard, etc.)
+│   │   └── ui/              # UI subcomponents
+│   ├── views/               # Page components (HomeView, AboutView, ProjectsView, etc.)
+│   ├── constants/           # Static data (projects.js)
+│   ├── controllers/         # Business logic (contactController.js)
+│   ├── hooks/               # Custom React hooks (useActiveSection.js)
+│   ├── App.jsx              # Main app component
+│   ├── main.jsx             # Entry point
+│   └── index.css            # Global styles
+├── .env                     # Environment variables
+├── package.json             # Project metadata and scripts
+├── tailwind.config.js       # Tailwind CSS config
+├── vite.config.js           # Vite config
 └── README.md
 ```
 
-## Customization
-- Update your name, bio, and social links in the relevant files.
-- Add or edit projects in `src/constants/projects.js`.
-- Update the contact form and EmailJS templates as needed.
+## Customization Guide
+
+- **Update your name, bio, and social links:**
+  - `src/views/HomeView.jsx`, `src/views/AboutView.jsx`, `src/components/Navbar.jsx`, `src/components/Footer.jsx`
+- **Add or edit projects:**
+  - Edit `src/constants/projects.js` to showcase your work
+- **Update the contact form and EmailJS templates:**
+  - Edit `src/views/ContactView.jsx` and `src/controllers/contactController.js`
+  - Set your EmailJS credentials in `.env`
+- **Replace the resume:**
+  - Place your PDF as `public/assets/Rohit_Resume.pdf`
+- **Styling:**
+  - Adjust Tailwind config in `tailwind.config.js` and global styles in `src/index.css`
