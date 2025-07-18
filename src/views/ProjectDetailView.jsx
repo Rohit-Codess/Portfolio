@@ -6,8 +6,8 @@ const projects = {
   'travel-beyond-borders': {
     title: 'Travel: Beyond Borders',
     description: 'A travel website where users can explore and share travel experiences. Features account creation, responsive design, and is live on Render.',
-    url: 'https://travel-beyond-borders.onrender.com/',
-    iframeUrl: 'https://travel-beyond-borders.onrender.com/',
+    url: 'https://www.travel.rtcodex.dev/',
+    iframeUrl: 'https://www.travel.rtcodex.dev/',
     keyPoints: [
       'Connects travelers worldwide',
       'Responsive design for all devices',
@@ -22,8 +22,8 @@ const projects = {
   'hr-management-system': {
     title: 'HR: Modern HR Management System',
     description: 'A secure platform for job listings, candidate tracking, interview scheduling, and email integration using Nodemailer.',
-    url: 'https://hr-lake.vercel.app/',
-    iframeUrl: 'https://hr-lake.vercel.app/',
+    url: 'https://hr.rtcodex.dev/',
+    iframeUrl: 'https://hr.rtcodex.dev/',
     keyPoints: [
       'Streamlines HR workflows',
       'Secure authentication and data',
@@ -35,11 +35,28 @@ const projects = {
     techStack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Nodemailer'],
     usage: 'Used by HR professionals for modern recruitment.'
   },
+  'codepen': {
+    title: 'CodePen Clone',
+    description: 'A social development environment for front-end designers and developers.',
+    url: 'https://codepen.rtcodex.dev/',
+    iframeUrl: 'https://codepen.rtcodex.dev/',
+    keyPoints: [
+      'Live HTML, CSS, and JS code editing',
+      'Instant preview of code output',
+      'Save and share code snippets (pens)',
+      'User authentication and profiles',
+      'Responsive and interactive UI',
+      'Built with MERN stack',
+    ],
+    impact: 'Enables developers to experiment, showcase, and collaborate on front-end code in real time.',
+    techStack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Nodemailer'],
+    usage: 'Used by front-end developers and designers for rapid prototyping and sharing.'
+  },
   'restaurant-erp-system': {
     title: 'Restaurant ERP System',
     description: 'It is designed to restaurant operations, from inventory and order management to staff and reporting.',
     url: '#',
-    iframeUrl: 'https://restaurant-management-rohit-codess-projects.vercel.app/',
+    iframeUrl: 'https://kk-restaurant.rtcodex.dev/',
     keyPoints: [
       'Streamlines restaurant operations',
       'Inventory and order management',
@@ -53,8 +70,8 @@ const projects = {
   'learnflow-tracker': {
     title: 'LearnFlow Tracker',
     description: 'Allows users to create tasks, track time spent, visualize progress, and receive browser notifications to stay focused.',
-    url: 'https://learnflow-tracker.vercel.app/',
-    iframeUrl: 'https://learnflow-tracker.vercel.app/',
+    url: 'https://learnflow-tracker.rtcodex.dev/',
+    iframeUrl: 'https://learnflow-tracker.rtcodex.dev/',
     keyPoints: [
       'Task creation and time tracking',
       'Progress visualization',
