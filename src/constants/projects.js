@@ -16,6 +16,14 @@ const projects = [
     github: 'https://github.com/Rohit-Codess/travel-app'
   },
   {
+    id: 'codepen',
+    title: 'CodePen Clone',
+    description: 'This project allows users to create, explore, review, and manage code snippets with authentication and user profiles.',
+    tags: ['Express.js', 'React.js', 'Node.js'],
+    demoLink: 'https://codepen.rtcodex.dev/',
+    github: 'https://github.com/Rohit-Codess/2.-CODE-PEN-CLONE'
+  },
+  {
     id: 'restaurant-erp-system',
     title: 'Restaurant ERP System',
     description: ' It is designed to restaurant operations, from inventory and order management to staff and reporting.',

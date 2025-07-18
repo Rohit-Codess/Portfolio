@@ -49,7 +49,7 @@ const projects = {
       'Built with MERN stack',
     ],
     impact: 'Enables developers to experiment, showcase, and collaborate on front-end code in real time.',
-    techStack: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'Nodemailer'],
+    techStack: ['Express.js', 'React.js', 'Node.js'],
     usage: 'Used by front-end developers and designers for rapid prototyping and sharing.'
   },
   'restaurant-erp-system': {
