@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion as Motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const HomeView = () => {
   return (
@@ -39,12 +40,12 @@ const HomeView = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.6 }}
       >
-        <a
-          href="/contact"
+        <Link
+          to="/contact"
           className="px-6 py-2 bg-black text-white rounded-lg hover:opacity-90 transition"
         >
           Contact Me
-        </a>
+        </Link>
       </Motion.div>
     </section>
   );
