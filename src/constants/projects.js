@@ -19,7 +19,7 @@ const projects = [
     id: 'codepen',
     title: 'CodePen Clone',
     description: 'This project allows users to create, explore, review, and manage code snippets with authentication and user profiles.',
-    tags: ['Express.js', 'React.js', 'Node.js'],
+    tags: ['Express.js', 'React.js', 'Node.js', 'CSS', 'JavaScript'],
     demoLink: 'https://codepen.rtcodex.dev/',
     github: 'https://github.com/Rohit-Codess/2.-CODE-PEN-CLONE'
   },
