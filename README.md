@@ -1,16 +1,21 @@
-# Rohit.dev Portfolio
+# 🌟 RTcodex Portfolio
 
-A modern, responsive developer portfolio built with React, Vite, and Tailwind CSS.
+A modern, responsive developer portfolio built with React, Vite, and Tailwind CSS, showcasing full-stack development projects and professional experience.
 
-## Features
+## ✨ Features
 
-- ⚡ Fast and lightweight (Vite-powered)
-- 🎨 Beautiful, responsive UI with Tailwind CSS
-- 📄 Downloadable resume
-- 📬 Contact form with EmailJS integration (auto-reply and notification)
-- 💼 Projects showcase with live demo and GitHub links
-- 🔗 Social links with icons
-- ✨ Smooth animations using Framer Motion
+- ⚡ **Fast Performance** - Vite-powered build with optimized loading
+- 🎨 **Modern UI** - Beautiful, responsive design with Tailwind CSS
+- � **Mobile-First** - Fully responsive across all devices
+- 🏠 **Multi-Page Navigation** - React Router with smooth transitions
+- 📄 **Resume Download** - Direct PDF download functionality
+- 📬 **Contact Integration** - EmailJS with auto-reply and notifications
+- 💼 **Project Showcase** - Featured projects with live demos and GitHub links
+- 🔗 **Social Links** - Professional social media integration
+- ✨ **Smooth Animations** - Framer Motion for enhanced UX
+- 🍞 **Toast Notifications** - React Hot Toast for user feedback
+- 🎯 **Services Section** - Professional services and skills showcase
+- 🔍 **SEO Optimized** - Meta tags, structured data, and semantic HTML
 
 ## Getting Started
 
