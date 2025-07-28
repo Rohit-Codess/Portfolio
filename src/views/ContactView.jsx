@@ -115,42 +115,50 @@ const ContactView = () => {
           >
             {/* Contact Cards */}
             <div className="space-y-6">
-              {[
-                {
-                  icon: FaEnvelope,
-                  title: 'Email',
-                  content: 'rohitmahto7479@gmail.com',
-                  color: 'pink'
-                },
-                {
-                  icon: FaPhone,
-                  title: 'Phone',
-                  content: '+91 70619 86556',
-                  color: 'purple'
-                },
-                {
-                  icon: FaMapMarkerAlt,
-                  title: 'Location',
-                  content: 'Ranchi, Jharkhand, India',
-                  color: 'blue'
-                }
-              ].map((item, index) => (
-                <Motion.div
-                  key={item.title}
-                  className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-gray-200 flex items-center space-x-4"
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 0.6 + index * 0.2 }}
-                >
-                  <div className={`p-3 rounded-xl bg-gradient-to-r from-${item.color}-500 to-${item.color}-600 text-white`}>
-                    <item.icon className="text-xl" />
-                  </div>
-                  <div>
-                    <h3 className="font-medium text-gray-800">{item.title}</h3>
-                    <p className="text-gray-600 font-normal">{item.content}</p>
-                  </div>
-                </Motion.div>
-              ))}
+              <Motion.div
+                className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-gray-200 flex items-center space-x-4"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.6 }}
+              >
+                <div className="p-3 rounded-xl bg-gradient-to-r from-pink-500 to-pink-600 text-white">
+                  <FaEnvelope className="text-xl" />
+                </div>
+                <div>
+                  <h3 className="font-medium text-gray-800">Email</h3>
+                  <p className="text-gray-600 font-normal">itsrohitdev@gmail.com</p>
+                </div>
+              </Motion.div>
+
+              <Motion.div
+                className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-gray-200 flex items-center space-x-4"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 0.8 }}
+              >
+                <div className="p-3 rounded-xl bg-gradient-to-r from-purple-500 to-purple-600 text-white">
+                  <FaPhone className="text-xl" />
+                </div>
+                <div>
+                  <h3 className="font-medium text-gray-800">Phone</h3>
+                  <p className="text-gray-600 font-normal">+91 74799 03041</p>
+                </div>
+              </Motion.div>
+
+              <Motion.div
+                className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-gray-200 flex items-center space-x-4"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6, delay: 1.0 }}
+              >
+                <div className="p-3 rounded-xl bg-gradient-to-r from-blue-500 to-blue-600 text-white">
+                  <FaMapMarkerAlt className="text-xl" />
+                </div>
+                <div>
+                  <h3 className="font-medium text-gray-800">Location</h3>
+                  <p className="text-gray-600 font-normal">Ranchi, Jharkhand, India</p>
+                </div>
+              </Motion.div>
             </div>
 
             {/* Social Links */}
@@ -162,21 +170,30 @@ const ContactView = () => {
             >
               <h3 className="font-medium text-gray-800 mb-4">Follow me on social media</h3>
               <div className="flex space-x-4">
-                {[
-                  { icon: FaGithub, href: 'https://github.com/Rohit-Codess/', color: 'gray' },
-                  { icon: FaLinkedin, href: 'https://linkedin.com/in/itsrohitdev', color: 'blue' },
-                  { icon: FaTwitter, href: 'https://x.com/rohitmahto7479/', color: 'blue' }
-                ].map((social, index) => (
-                  <a
-                    key={index}
-                    href={social.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`p-3 rounded-xl bg-gradient-to-r from-${social.color}-500 to-${social.color}-600 text-white hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300`}
-                  >
-                    <social.icon className="text-xl" />
-                  </a>
-                ))}
+                <a
+                  href="https://github.com/Rohit-Codess/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 rounded-xl bg-gradient-to-r from-gray-700 to-gray-900 text-white hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
+                >
+                  <FaGithub className="text-xl" />
+                </a>
+                <a
+                  href="https://linkedin.com/in/itsrohitdev"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 rounded-xl bg-gradient-to-r from-blue-500 to-blue-600 text-white hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
+                >
+                  <FaLinkedin className="text-xl" />
+                </a>
+                <a
+                  href="https://x.com/rohitmahto7479/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 rounded-xl bg-gradient-to-r from-sky-400 to-sky-500 text-white hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
+                >
+                  <FaTwitter className="text-xl" />
+                </a>
               </div>
             </Motion.div>
           </Motion.div>
