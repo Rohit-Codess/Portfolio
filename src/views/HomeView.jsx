@@ -82,7 +82,7 @@ const HomeView = () => {
           </Link>
           
           <a
-            href="#"
+            href="/assets/Resume.pdf" target='_blank'
             className="px-8 py-4 bg-white/80 backdrop-blur-sm border-2 border-gray-200 text-gray-700 rounded-xl font-semibold shadow-lg hover:shadow-xl hover:border-blue-300 transform hover:-translate-y-1 transition-all duration-300 flex items-center gap-2"
           >
             <FaDownload />

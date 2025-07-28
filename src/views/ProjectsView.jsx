@@ -25,7 +25,7 @@ const ProjectsView = () => {
             <FaCode className="mr-2 text-green-600" />
             Portfolio Showcase
           </div>
-          <h1 className="text-4xl md:text-5xl font-semibold mb-4 bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-5xl font-semibold mb-4 bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text">
             My Projects
           </h1>
           <p className="text-xl text-gray-600 font-normal max-w-2xl mx-auto">
