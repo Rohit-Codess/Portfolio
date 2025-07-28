@@ -1,5 +1,13 @@
 const projects = [
   {
+    id: 'kk-restaurant',
+    title: 'KK Dhaba & Restaurant',
+    description: 'Building a restaurant management platform to streamline operations, inventory, orders, staff coordination, and reporting.',
+    tags: ['React', 'Tailwind', 'Node.js', 'Express.js', 'MongoDB', 'NodeMailer'],
+    demoLink: 'https://kk-web.rtcodex.dev/',
+    github: 'https://github.com/Rohit-Codess/kk-web'
+  },
+  {
     id: 'hr-management-system',
     title: 'HR Management System',
     description: 'It is designed to streamline the entire recruitment process, from job posting to offer letter. Built for HR professionals and hiring teams.',

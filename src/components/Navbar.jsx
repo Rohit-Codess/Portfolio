@@ -13,7 +13,7 @@ const sections = [
 const socials = [
   { name: 'github', icon: FaGithub, href: 'https://github.com/Rohit-Codess/' },
   { name: 'x', icon: SiX, href: 'https://x.com/rohitmahto7479/' },
-  { name: 'linkedin', icon: FaLinkedin, href: 'https://linkedin.com/in/rohit-mahto1122' },
+  { name: 'linkedin', icon: FaLinkedin, href: 'https://linkedin.com/in/itsrohitdev' },
 ];
 
 const Navbar = () => {
