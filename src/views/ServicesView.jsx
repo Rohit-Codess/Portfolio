@@ -36,25 +36,25 @@ const ServicesView = () => (
             icon: FaCode,
             title: 'Custom Web App Development (React/Node)',
             description: 'I build scalable, secure, and user-friendly web applications tailored to your business needs.',
-            color: 'blue'
+            color: 'from-red-500 to-red-600'
           },
           {
             icon: FaCog,
             title: 'Admin Dashboard / ERP System',
             description: 'Streamline your operations with custom dashboards and management tools for restaurants, HR, and more.',
-            color: 'indigo'
+            color: 'from-blue-500 to-blue-600'
           },
           {
             icon: FaPalette,
             title: 'UI/UX Design for SaaS',
             description: 'Modern, responsive interfaces that delight users and drive engagement.',
-            color: 'purple'
+            color: 'from-purple-500 to-purple-600'
           },
           {
             icon: FaTools,
             title: 'App Maintenance & Optimization',
             description: 'Keep your apps running smoothly with ongoing support, updates, and performance improvements.',
-            color: 'green'
+            color: 'from-green-500 to-green-600'
           }
         ].map((service, index) => (
           <Motion.div
@@ -64,7 +64,7 @@ const ServicesView = () => (
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: index * 0.2 }}
           >
-            <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r from-${service.color}-500 to-${service.color}-600 text-white mb-6`}>
+            <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-r ${service.color} text-white mb-6`}>
               <service.icon className="text-xl" />
             </div>
             <h3 className="text-xl font-medium text-gray-800 mb-4">{service.title}</h3>
