@@ -40,7 +40,7 @@ const AboutView = () => (
             <h2 className="text-2xl font-medium text-gray-800">Personal Info</h2>
           </div>
           <p className="text-gray-600 leading-relaxed font-normal">
-            I'm <span className="font-medium text-blue-600">Rohit Mahto</span>, a Software Engineer from Ranchi, Jharkhand, specializing in clean, scalable, and user-friendly web applications using the <span className="font-medium">MERN stack</span>—MongoDB, Express.js, React.js, and Node.js. Driven by curiosity and a fast learning mindset, I'm always eager to adapt to new technologies.
+            I'm <span className="font-medium text-blue-600">Rohit Mahto</span>, a Software Developer from Ranchi, Jharkhand, specializing in clean, scalable, and user-friendly web applications using the <span className="font-medium">MERN stack</span>—MongoDB, Express.js, React.js, and Node.js. Driven by curiosity and a fast learning mindset, I'm always eager to adapt to new technologies.
           </p>
         </Motion.div>
 
@@ -56,7 +56,7 @@ const AboutView = () => (
             <h2 className="text-2xl font-medium text-gray-800">Current Role</h2>
           </div>
           <p className="text-gray-600 leading-relaxed font-normal">
-            <span className="font-medium text-red-600">Software Engineer</span> at KK Dhaba & Restaurant, managing and developing a restaurant management web application to streamline operations, inventory, orders, staff coordination, and reporting.
+            <span className="font-medium text-red-600">Software Developer</span> at KK Dhaba & Restaurant, managing and developing a restaurant management web application to streamline operations, inventory, orders, staff coordination, and reporting.
           </p>
         </Motion.div>
 
@@ -72,7 +72,7 @@ const AboutView = () => (
             <h2 className="text-2xl font-medium text-gray-800">Education</h2>
           </div>
           <p className="text-gray-600 leading-relaxed font-normal">
-            Pursuing <span className="font-medium text-green-600">B.Sc. IT</span> at Marwari College, Ranchi (CGPA: 7.9, graduating 2025). Previously interned at <span className="font-medium text-blue-600">Emax India</span>, contributing to responsive web applications.
+            Complete <span className="font-medium text-green-600">B.Sc. IT</span> at Marwari College, Ranchi (CGPA: 7.9, graduating 2025). Previously interned at <span className="font-medium text-blue-600">Emax India</span>, contributing to responsive web applications.
           </p>
         </Motion.div>
 
@@ -106,7 +106,7 @@ const AboutView = () => (
           <h2 className="text-3xl font-medium text-gray-800">Tech Stack</h2>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {['JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'Bootstrap', 'Git'].map((tech, index) => (
+          {['JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'Bootstrap', 'Git', 'Docker', 'ChatGPT', 'Prompt Engineering', 'Gemini'].map((tech, index) => (
             <Motion.div
               key={tech}
               className="bg-gradient-to-r from-blue-50 to-purple-50 border border-blue-200 rounded-xl px-4 py-3 text-center shadow-sm hover:shadow-md hover:scale-105 transition-all duration-300"

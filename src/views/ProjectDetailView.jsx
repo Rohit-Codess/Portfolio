@@ -174,7 +174,7 @@ const ProjectDetailView = () => {
         </Motion.div>
         {/* Project Preview */}
         <Motion.div
-          className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-gray-200 mb-12"
+          className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg border border-gray-200 mb-12"
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}

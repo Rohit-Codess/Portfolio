@@ -126,7 +126,7 @@ const HomeView = () => {
         >
           <p className="text-sm text-gray-500 mb-4 font-medium">Tech Stack</p>
           <div className="flex flex-wrap justify-center gap-3">
-            {['JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'Bootstrap', 'Git'].map((tech, index) => (
+            {['JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'TypeScript', 'Tailwind CSS', 'Bootstrap', 'Git', 'Docker', 'ChatGPT', 'Gemini', 'Prompt Engineering'].map((tech, index) => (
               <Motion.span
                 key={tech}
                 className="px-4 py-2 bg-white/60 backdrop-blur-sm border border-gray-200 rounded-full text-sm text-gray-600 font-medium shadow-sm hover:shadow-md hover:scale-105 transition-all duration-300"
