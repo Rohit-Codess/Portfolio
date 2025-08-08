@@ -40,7 +40,7 @@ const HomeView = () => {
 
         {/* Professional Title */}
         <Motion.h2
-          className="text-xl md:text-3xl text-gray-700 mb-6 font-light"
+          className="text-xl md:text-3xl text-purple-700 mb-6 font-semibold"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.2 }}
@@ -53,18 +53,104 @@ const HomeView = () => {
         </Motion.h2>
 
         {/* Enhanced Description */}
-        <Motion.p
-          className="text-lg text-gray-600 max-w-3xl mb-8 leading-relaxed"
+        {/* About Section */}
+        <Motion.section
+          className="text-lg text-gray-700 max-w-3xl mb-8 leading-relaxed text-left mx-auto bg-white/80 rounded-xl shadow-lg p-6"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.4 }}
         >
-          I design and develop full-featured, production-ready web applications with advanced UI/UX using React, Tailwind CSS, and Vite, backed by secure authentication, databases, and RESTful APIs — delivering real-time features.
-          <br /><br />
-          Currently working at <span className="font-semibold text-red-600">KK Dhaba & Restaurant</span>, building a restaurant management platform. Previously interned at <span className="font-semibold text-blue-600">Emax India</span>, and pursuing B.Sc. IT at Marwari College, Ranchi.
-          <br /><br />
-          <span className="font-medium">Projects:</span> Travel: Beyond Borders, HR Management System, and more.
-        </Motion.p>
+          <h3 className="text-2xl font-bold mb-3 text-blue-700">About Me</h3>
+          <p className="mb-4">
+            I design and engineer production-grade web applications with enterprise-grade reliability, high-performance <b>UI/UX</b>, and secure backend <b>architectures</b>. I build scalable systems that meet high performance and maintainability standards.
+          </p>
+          <p>
+            By integrating <b>AI-driven tooling</b> into my design workflow, I eliminate repetitive tasks, accelerate prototyping, and elevate visual consistency — while retaining human-led strategic decision-making and core business logic design. This hybrid approach (AI automation + human expertise) enables faster delivery cycles and higher-quality user experiences.
+          </p>
+        </Motion.section>
+
+        {/* Core Competencies Section */}
+        <Motion.section
+          className="mb-8 text-left mx-auto bg-white/80 rounded-xl shadow-lg p-6"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.5 }}
+        >
+          <h3 className="text-2xl font-bold mb-3 text-blue-700">Core Competencies</h3>
+          <ul className="list-disc list-inside ml-4 text-gray-700 text-base space-y-1">
+            <li><b>Frontend:</b> React, TypeScript, JavaScript, Vite, Tailwind CSS, responsive & accessible UI design</li>
+            <li><b>Backend & APIs:</b> Node Js, Express Js, RESTful API design, authentication, database integrations</li>
+            <li><b>Architecture:</b> Scalable component architecture, state management, performance optimization, caching strategies</li>
+            <li><b>DevOps & Delivery:</b> CI/CD pipelines, containerization (Docker), environment-driven deployments, automated testing</li>
+            <li><b>AI-assisted Design:</b> Style-system automation, design token generation, component theming, automated visual regression checks</li>
+          </ul>
+        </Motion.section>
+
+        {/* Experience Section */}
+        <Motion.section
+          className="mb-8 text-left mx-auto bg-white/80 rounded-xl shadow-lg p-6"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.6 }}
+        >
+          <h3 className="text-2xl font-bold mb-3 text-blue-700">Professional Experience</h3>
+          <ul className="list-disc list-inside ml-4 text-gray-700 text-base space-y-1">
+            <li><b>KK Dhaba & Restaurant — Current:</b> Leading end-to-end development of a restaurant management platform focusing on reliability, security, and operational efficiency.</li>
+            <li><b>Emax India — Intern:</b> Contributed to feature development, code quality improvements, and team-driven delivery practices.</li>
+            <li><b>Education:</b> B.Sc. IT, Marwari College, Ranchi</li>
+          </ul>
+        </Motion.section>
+
+        {/* Projects Section */}
+          <Motion.section
+            className="mb-8 text-left mx-auto bg-white/80 rounded-xl shadow-lg p-6"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, delay: 0.7 }}
+          >
+            <h3 className="text-2xl font-bold mb-3 text-blue-700">Selected Projects</h3>
+            <ul className="list-disc list-inside ml-4 text-gray-700 text-base space-y-1">
+              <li>
+                <b>Restaurant Website:</b> Developed a modern, responsive website for a restaurant, featuring an interactive menu, online reservation system, and seamless integration with Google Maps for location and directions.
+              </li>
+              <li>
+                <b>Travel: Beyond Borders:</b> Built a travel platform enabling users to explore destinations, share their own experiences, and view interactive posts from other travelers.
+              </li>
+              <li>
+                <b>HR Management System:</b> A secure HR platform with role-based access, I provide job listing, candidate tracking, interview scheduling, and offer letter management.
+              </li>
+            </ul>
+          </Motion.section>
+
+          {/* Value Proposition Section */}
+        <Motion.section
+          className="mb-8 text-left mx-auto bg-white/80 rounded-xl shadow-lg p-6"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.8 }}
+        >
+          <h3 className="text-2xl font-bold mb-3 text-blue-700">Value Proposition</h3>
+          <p className="text-gray-700">
+            I bring a production-first mindset: testing, performance SLAs, clear documentation, and cross-functional collaboration. I combine modern engineering practices with AI-driven tooling to deliver maintainable, high-performance applications that scale.
+          </p>
+        </Motion.section>
+
+        {/* Tagline Section */}
+        <Motion.section
+          className="mb-8 text-left mx-auto bg-white/80 rounded-xl shadow-lg p-6"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 0.9 }}
+        >
+          <h3 className="text-2xl font-bold mb-3 text-blue-700">Tagline Options</h3>
+          <ul className="list-disc list-inside ml-4 text-gray-700 text-base space-y-1">
+            <li>"AI-driven design automation. Human-led architecture. Enterprise-grade delivery."</li>
+            <li>"Engineering scalable web apps with AI-accelerated workflows and production-grade discipline."</li>
+            <li>"From prototype to production — performance-first web applications powered by AI + human strategy."</li>
+            <li>"Design systems automated. Core logic engineered. Deliverables optimized."</li>
+            <li>"Where AI improves velocity and humans ensure correctness — production-ready web engineering."</li>
+          </ul>
+        </Motion.section>
 
         {/* Professional Action Buttons */}
         <Motion.div
@@ -126,7 +212,7 @@ const HomeView = () => {
         >
           <p className="text-sm text-gray-500 mb-4 font-medium">Tech Stack</p>
           <div className="flex flex-wrap justify-center gap-3">
-            {['JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'TypeScript', 'Tailwind CSS', 'Bootstrap', 'Git', 'Docker', 'ChatGPT', 'Gemini', 'Prompt Engineering'].map((tech, index) => (
+            {['TypeScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'Tailwind CSS', 'Bootstrap', 'Git', 'Docker', 'ChatGPT', 'Gemini', 'Prompt Engineering'].map((tech, index) => (
               <Motion.span
                 key={tech}
                 className="px-4 py-2 bg-white/60 backdrop-blur-sm border border-gray-200 rounded-full text-sm text-gray-600 font-medium shadow-sm hover:shadow-md hover:scale-105 transition-all duration-300"
