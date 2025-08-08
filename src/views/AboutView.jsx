@@ -106,7 +106,7 @@ const AboutView = () => (
           <h2 className="text-3xl font-medium text-gray-800">Tech Stack</h2>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {['JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB', 'Tailwind CSS', 'Bootstrap', 'Git', 'Docker', 'ChatGPT', 'Prompt Engineering', 'Gemini'].map((tech, index) => (
+          {['JavaScript', 'React.js', 'Node.js', 'Express.js', 'MongoDB',  'Bootstrap', 'Git', 'Docker', 'ChatGPT', 'Gemini', 'Tailwind CSS', 'Prompt Engineering'].map((tech, index) => (
             <Motion.div
               key={tech}
               className="bg-gradient-to-r from-blue-50 to-purple-50 border border-blue-200 rounded-xl px-4 py-3 text-center shadow-sm hover:shadow-md hover:scale-105 transition-all duration-300"
