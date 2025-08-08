@@ -94,7 +94,7 @@ const ServicesView = () => (
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 1 }}
           >
-            <FaUtensils className="text-red-600 text-2xl mt-1" />
+            <FaUtensils className="text-red-600 text-3xl" />
             <div>
               <h3 className="font-medium text-gray-800 mb-2">Restaurant Solutions</h3>
               <p className="text-gray-600 font-normal text-sm">
@@ -109,7 +109,7 @@ const ServicesView = () => (
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 1.2 }}
           >
-            <FaUsers className="text-blue-600 text-2xl mt-1" />
+            <FaUsers className="text-blue-600 text-3xl" />
             <div>
               <h3 className="font-medium text-gray-800 mb-2">HR Management</h3>
               <p className="text-gray-600 font-normal text-sm">
