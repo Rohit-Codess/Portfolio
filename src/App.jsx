@@ -3,7 +3,7 @@ import { Toaster } from 'react-hot-toast';
 import Navbar from './components/Navbar';
 import HomeView from './views/HomeView';
 import ProjectsView from './views/ProjectsView';
-import ScrollToTop from './components/ScrollToTop';
+import ScrollToTop from './components/ScrollTowhatsApp';
 import ServicesView from './views/ServicesView';
 import AboutView from './views/AboutView';
 import ProjectDetailView from './views/ProjectDetailView';
