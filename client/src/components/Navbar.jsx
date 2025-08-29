@@ -20,26 +20,26 @@ const Navbar = () => {
   const location = useLocation();
   return (
     <header className="flex justify-center sticky top-4 left-0 right-0 z-50 pointer-events-none">
-      <nav className="bg-white rounded-full shadow flex justify-center px-6 py-3 space-x-6 max-w-4xl w-full pointer-events-auto">
+      <nav className="bg-professional-card rounded-full shadow-professional-lg flex justify-center px-6 py-3 space-x-6 max-w-4xl w-full pointer-events-auto">
         {/* First group */}
         {sections.map((sec) => (
           <Link
             key={sec.name}
             to={sec.to}
-            className={`flex items-center justify-center transition ${location.pathname === sec.to ? 'text-blue-600 font-bold scale-110' : 'text-black hover:text-blue-600'}`}
+            className={`flex items-center justify-center transition-all duration-300 hover-professional ${location.pathname === sec.to ? 'text-professional-accent font-bold scale-110' : 'text-slate-700 hover:text-professional-accent'}`}
             aria-label={sec.name}
           >
             <sec.icon />
           </Link>
         ))}
         {/* Divider */}
-        <span className="border-l h-6 mx-3" />
+        <span className="border-l border-slate-300 h-6 mx-3" />
         {/* Socials group */}
         {socials.map((soc) => (
           <a
             key={soc.name}
             href={soc.href}
-            className="flex items-center justify-center text-black hover:text-blue-600 transition"
+            className="flex items-center justify-center text-slate-700 hover:text-professional-accent transition-all duration-300 hover-professional"
             aria-label={soc.name}
             target={soc.href.startsWith('http') ? '_blank' : undefined}
             rel={soc.href.startsWith('http') ? 'noopener noreferrer' : undefined}

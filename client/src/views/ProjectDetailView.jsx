@@ -5,6 +5,78 @@ import { FaArrowLeft, FaExternalLinkAlt, FaCode, FaRocket, FaCheckCircle, FaUser
 
 // Example project data (replace with real data or fetch from API)
 const projects = {
+  'kids-school': {
+    title: 'Kids School Management System',
+    description: 'Comprehensive school management platform designed for kids education centers, featuring student enrollment, class scheduling, parent communication, and academic progress tracking with child-friendly interface.',
+    url: 'https://school-umber-chi.vercel.app/',
+    iframeUrl: 'https://school-umber-chi.vercel.app/',
+    keyPoints: [
+      'Student enrollment and registration system',
+      'Class scheduling and timetable management',
+      'Parent-teacher communication portal',
+      'Academic progress tracking and reporting',
+      'Child-friendly and intuitive interface',
+      'Responsive design for all devices',
+      'Built with React and modern technologies'
+    ],
+    impact: 'Streamlines school administration and enhances communication between teachers, students, and parents.',
+    techStack: ['React', 'Tailwind CSS', 'React-Router-dom', 'Vite', 'Responsive Design'],
+    usage: 'Used by school administrators, teachers, and parents for educational management.'
+  },
+  'cimpress-redesign': {
+    title: 'Cimpress Platform Redesign',
+    description: 'Modern redesign of Cimpress printing and marketing services platform with enhanced UX/UI, improved navigation, responsive design, and streamlined ordering process for better user experience.',
+    url: 'https://cimpress-website.vercel.app/',
+    iframeUrl: 'https://cimpress-website.vercel.app/',
+    keyPoints: [
+      'Modern and intuitive user interface design',
+      'Enhanced navigation and user experience',
+      'Responsive design for all screen sizes',
+      'Streamlined product ordering process',
+      'Improved visual hierarchy and typography',
+      'Smooth animations with Framer Motion',
+      'TypeScript for better code reliability'
+    ],
+    impact: 'Delivers a superior user experience for customers seeking printing and marketing services.',
+    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'UX/UI Design'],
+    usage: 'Used by customers for ordering printing and marketing materials online.'
+  },
+  'vaultize-redesign': {
+    title: 'Vaultize Security Platform',
+    description: 'Complete redesign of Vaultize cybersecurity platform with modern interface, enhanced security features, dashboard analytics, and improved user authentication flow for enterprise security solutions.',
+    url: 'https://vaultize-website.vercel.app/',
+    iframeUrl: 'https://vaultize-website.vercel.app/',
+    keyPoints: [
+      'Modern cybersecurity platform interface',
+      'Enhanced security dashboard and analytics',
+      'Improved user authentication flow',
+      'Real-time security monitoring features',
+      'Professional enterprise-grade design',
+      'Interactive security metrics visualization',
+      'Responsive design with modern icons'
+    ],
+    impact: 'Provides enterprises with a powerful and intuitive cybersecurity management platform.',
+    techStack: ['React', 'TypeScript', 'Tailwind CSS', 'Lucide React Icons', 'React Router DOM'],
+    usage: 'Used by cybersecurity professionals and enterprise teams for security management.'
+  },
+  'student-bill-desk': {
+    title: 'Student Bill Desk Management',
+    description: 'Digital Student Fee management system for educational institutions, featuring fee collection with no duplicate entries, payment tracking, invoice generation, and automated reminders with parent portal integration.',
+    url: 'https://student-bill-desk.rtcodex.dev/',
+    iframeUrl: 'https://student-bill-desk.rtcodex.dev/',
+    keyPoints: [
+      'Digital fee collection and payment processing',
+      'Duplicate entry prevention system',
+      'Automated invoice generation',
+      'Payment tracking and history management',
+      'Parent portal for fee notifications',
+      'Secure database with MongoDB',
+      'Real-time payment status updates'
+    ],
+    impact: 'Simplifies fee management for educational institutions and provides transparency for parents.',
+    techStack: ['React', 'Node.js', 'Express.js', 'MongoDB', 'SweetAlert2', 'Axios', 'Mongoose', 'CORS'],
+    usage: 'Used by educational institutions, students, and parents for fee management.'
+  },
   'kk-restaurant': {
     title: 'KK Dhaba & Restaurant',
     description: 'It is MERN stack project where I am currently working as a Software Developer, building a restaurant management platform to streamline operations, inventory, orders, staff coordination, and reporting.',
